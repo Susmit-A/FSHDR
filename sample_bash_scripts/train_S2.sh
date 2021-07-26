@@ -1,0 +1,16 @@
+python3 train_S2.py          \
+  --model BridgeNet          \
+  --synthetic_data_loc dataset/temp_datasets/SIG17_5L5S64U \
+  --starting_epoch 0         \
+  --dataset SIG17            \
+  --image_type flow_corrected\
+  --gpu_num 0                \
+  --rtx_mixed_precision      \
+  --model_name SIG17_5L5S64U \
+  --epochs 75                \
+  --batch_size 4             \
+  --steps_per_batch 5000     \
+  --start_lr 3e-4            \
+  --decay_steps 10           \
+  --decay_rate 0.75          \
+  --val_downsample 1 | tee SIG17_5L5S64U_S2.txt

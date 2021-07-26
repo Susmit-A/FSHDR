@@ -1,0 +1,21 @@
+python3 train_S1.py          \
+  --model BridgeNet          \
+  --starting_epoch 0         \
+  --num_static 5             \
+  --num_SCL_dynamic 64       \
+  --num_supervised_dynamic 5 \
+  --dataset SIG17            \
+  --image_type flow_corrected\
+  --gpu_num 0                \
+  --rtx_mixed_precision      \
+  --model_name SIG17_5L5S64U \
+  --epochs 75                \
+  --batch_size 4             \
+  --steps_per_batch 5000     \
+  --start_lr 3e-4            \
+  --decay_steps 10           \
+  --decay_rate 0.75          \
+  --alpha 0.5                \
+  --alpha_inc_steps 10       \
+  --alpha_inc_rate 0.1       \
+  --val_downsample 1 | tee SIG17_5L5S6U_S1.txt

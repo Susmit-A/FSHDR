@@ -1,0 +1,2 @@
+model_checkpoint_path: "UCSD_Ours_FS1_S3R2.tf"
+all_model_checkpoint_paths: "UCSD_Ours_FS1_S3R2.tf"
