@@ -80,5 +80,6 @@ When citing this work, you should use the following Bibtex:
       title={Labeled from Unlabeled: Exploiting Unlabeled Data for Few-shot Deep HDR Deghosting},
       author={Prabhakar, K Ram and Senthil, Gowtham and Agrawal, Susmit and Babu, R Venkatesh and Gorthi, Rama Krishna Sai S},
       booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+      pages={4875--4885},
       year={2021}
     }
