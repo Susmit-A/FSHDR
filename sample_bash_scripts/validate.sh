@@ -1,6 +1,6 @@
 python3 validate.py          \
   --model BridgeNet          \
-  --weights_loc results/SIG17_5L5S64U/stage2/53/SIG17_5L5S64U.tf \
+  --weights_loc results/complete_SIG17/UCSD_Ours_Full.tf \
   --model_name SIG17_5L5S64U \
   --dataset SIG17            \
   --image_type flow_corrected \
