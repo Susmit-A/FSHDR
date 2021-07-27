@@ -1,5 +1,5 @@
 # Few-shot Deep HDR Deghosting
-This Repository contains code and pretrained models for our paper: Labeled from Unlabeled: Exploiting Unlabeled Data for Few-shot Deep HDR Deghosting accepted at CVPR, 2021.
+This Repository contains code and pretrained models for our paper: [Labeled from Unlabeled: Exploiting Unlabeled Data for Few-shot Deep HDR Deghosting](https://openaccess.thecvf.com/content/CVPR2021/papers/Prabhakar_Labeled_From_Unlabeled_Exploiting_Unlabeled_Data_for_Few-Shot_Deep_HDR_CVPR_2021_paper.pdf) accepted at CVPR, 2021.
 
 It has been tested on RTX 2080Ti with Tensorflow 2.5.0. It also requires MATLAB for performing optical flow correction. Some parts of the flow correction code have been taken from [here](http://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR).
 
@@ -78,7 +78,7 @@ matlab -nodisplay -nosplash -nodesktop -r "FlowCorrectAndStoreBackFlows('ICCP19'
 Run ```sample_bash_scripts/validate.sh``` for validating provided models. Ensure all parameters are proper and point to correct locations.
 
 ## Provided Model Weights
-For each of zero-shot, one-shot, and five-shot with SIG17 and ICCP19 dataset, we share BridgeNet model weights in ```results```. A script to test all these models is provided at ```sample_bash_scripts/test_provided_models.sh```.
+For each of zero-shot, one-shot, five-shot, and fully supervised runs with SIG17 dataset, we share BridgeNet model weights in ```results```.
 
 ## Citation
 When citing this work, you should use the following Bibtex:
