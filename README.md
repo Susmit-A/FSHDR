@@ -1,7 +1,7 @@
 # Few-shot Deep HDR Deghosting
 This Repository contains code and pretrained models for our paper: Labeled from Unlabeled: Exploiting Unlabeled Data for Few-shot Deep HDR Deghosting accepted at CVPR, 2021.
 
-It has been tested on RTX 2080Ti with Tensorflow 2.0.0. It also requires MATLAB for performing optical flow correction. Some parts of the flow correction code have been taken from ![here](http://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR).
+It has been tested on RTX 2080Ti with Tensorflow 2.5.0. It also requires MATLAB for performing optical flow correction. Some parts of the flow correction code have been taken from [here](http://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR).
 
 ![Banner](github_images/overview.png)
 
@@ -22,7 +22,7 @@ Installing dependencies:
 ```shell script
 (docker)# apt update
 (docker)# apt install -y ffmpeg libsm6 libxext6 libxrender-dev
-(docker)# pip install opencv-python==4.4.0.42 matplotlib==3.3.1 scikit-image==0.17.2
+(docker)# pip install opencv-python
 ```
 
 Using MATLAB:
