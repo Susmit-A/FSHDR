@@ -25,9 +25,9 @@ Installing dependencies:
 (docker)# pip install opencv-python==4.4.0.42 matplotlib==3.3.1 scikit-image==0.17.2
 ```
 
-Installing MATLAB inside the container:
+Using MATLAB:
 
-Please follow the instructions from https://github.com/mathworks-ref-arch/matlab-dockerfile.
+The MATLAB commands provided in this document work outside the docker container. If you still want to create a docker image with MATLAB installed, please follow the instructions from https://github.com/mathworks-ref-arch/matlab-dockerfile.
 
 ### Dataset Preparation:
 1. For Kalantari dataset (SIG17), run the following from the `dataset` folder:
