@@ -57,9 +57,9 @@ $ cat *.part* > train.tar
 $ tar -xvf train.tar
 $ python3 prepare_ICCP19.py --src Training_set/ --dst ICCP19/train
 
-rm -rf test.zip *.part*
+$ rm -rf test.zip *.part*
 
-matlab -nodisplay -nosplash -nodesktop -r "FlowCorrectAndStoreBackFlows('ICCP19'); exit;"
+$ matlab -nodisplay -nosplash -nodesktop -r "FlowCorrectAndStoreBackFlows('ICCP19'); exit;"
 ```
 
 ## Steps for running different components
