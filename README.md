@@ -42,7 +42,7 @@ $ matlab -nodisplay -nosplash -nodesktop -r "FlowCorrectAndStoreBackFlows('SIG17
 
 2. For Prabhakar dataset (ICCP19), from the `dataset` folder,
 ##### Download ICCP19 Dataset from https://www.kaggle.com/valrnn/iccp19
-Extract it to ```ICCP19``` and then run the following:
+Extract ```train``` and ```val``` to ```ICCP19``` folder and then run the following:
 
 $ matlab -nodisplay -nosplash -nodesktop -r "FlowCorrectAndStoreBackFlows('ICCP19'); exit;"
 ```
