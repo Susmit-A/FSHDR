@@ -44,6 +44,7 @@ $ matlab -nodisplay -nosplash -nodesktop -r "FlowCorrectAndStoreBackFlows('SIG17
 ##### Download ICCP19 Dataset from https://www.kaggle.com/valrnn/iccp19
 Extract ```train``` and ```val``` to ```ICCP19``` folder and then run the following:
 
+```shell script
 $ matlab -nodisplay -nosplash -nodesktop -r "FlowCorrectAndStoreBackFlows('ICCP19'); exit;"
 ```
 
